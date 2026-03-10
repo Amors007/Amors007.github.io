@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奇美私房導覽</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 20px; background: #f4f1ea; }
+        .card { background: white; padding: 20px; margin: 10px; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        button { background: #8b7355; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h1>🏛️ 奇美博物館導覽</h1>
+
+    <div class="card">
+        <h3>1. 戶外景點：阿波羅噴泉</h3>
+        <audio id="audio1" src="01_intro.mp3"></audio>
+        <button onclick="document.getElementById('audio1').play()">播放語音</button>
+    </div>
+
+    <div class="card">
+        <h3>2. 兵器廳：戰爭藝術</h3>
+        <audio id="audio2" src="02_arms.mp3"></audio>
+        <button onclick="document.getElementById('audio2').play()">播放語音</button>
+    </div>
+</body>
+</html>
